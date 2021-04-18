@@ -42,18 +42,18 @@ H2 {
     border-color: white;
     border-radius: 10px;
     color: white;
+    transition: background 0.5s;
 }
 
-button:hover {
+.navbutton:hover {
     background-color: #B063F0;
     box-shadow: #181818;
-    transition: 0.3s;
+    
 }
 
-button:active {
+.navbutton:active {
     background-color: #66279A;
     box-shadow: #181818;
-    transition: 0.3s;
 }
 
 .black {
@@ -164,4 +164,18 @@ header {
     padding: 2px 16px;
     justify-content: center;
     display: flex;
+}
+.imgtest:hover{
+transform: scaleY(1.5);
+
+}
+.test {
+width: 400px;
+height: 400px;
+background-color: #181818; 
+margin: auto;
+}
+
+@keyframes mail {
+
 }
