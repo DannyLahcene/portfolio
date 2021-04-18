@@ -1,3 +1,7 @@
+.nostyle{
+    text-decoration: none;
+}
+
 body {
     background-image: url("../images/background.png");
     background-position: top;
